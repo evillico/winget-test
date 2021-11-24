@@ -1,0 +1,12 @@
+# Created using wingetcreate 0.4.3.1
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.0.0.schema.json
+
+PackageIdentifier: seac.cruscotto
+PackageVersion: 1
+Installers:
+- Architecture: x86
+  InstallerType: exe
+  InstallerUrl: http://192.168.56.1:8000/seac.cruscotto.exe
+  InstallerSha256: 8527787570B673C6C9DE7556E65C5E422A0DAFF71F6818C0ED3AEEB87759525C
+ManifestType: installer
+ManifestVersion: 1.0.0
